@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net" modified="2024-04-15T10:46:27.518Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="QDWpYteGZFhVyFVqm7r-" version="24.2.5" type="device">
+  <diagram name="Strona-1" id="TSGSGOjUfx4-wDD76mtl">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w35nY8qTUXebuO3vPiI_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-1" target="w35nY8qTUXebuO3vPiI_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-1" value="Strona logowania" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-2" target="w35nY8qTUXebuO3vPiI_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-2" value="[Adres witryny]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="20" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-4" target="w35nY8qTUXebuO3vPiI_-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-4" value="[Adres witryny]/admin" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-5" target="w35nY8qTUXebuO3vPiI_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-5" value="Strona Panelu Administracyjnego" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-7" target="w35nY8qTUXebuO3vPiI_-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-7" target="w35nY8qTUXebuO3vPiI_-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-7" value="Strona główna użytkonika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-12" target="w35nY8qTUXebuO3vPiI_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-12" value="Strona rejestracji" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-17" value="Wyswietla informacje o użytkowniku" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="340" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-18" target="w35nY8qTUXebuO3vPiI_-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-18" target="w35nY8qTUXebuO3vPiI_-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-18" value="Lista zleconych zadań" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-20" value="user.role == &quot;manager&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-21" value="Lista przypisanych zadań" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-23" value="user.role == &quot;pracownik&quot;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="340" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-24" value="Formularz tworzenia nowego zadania" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-26" value="Formularz modyfikacji istniejącego zadania" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-28" value="Możliwość usunięcia każdego zadania z listy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333.75" y="460" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-29" value="Możliwość zmiany statusu przy każdym zadaniu z listy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="586.25" y="460" width="167.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-30" value="Wyświetla listę zarejestrowanych użytkowników" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-31" value="Możliwość usunięcia każdego użytkownika z listy" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="206.25" y="270" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-32" value="Formularz modyfikacji użytkownika" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-30" target="w35nY8qTUXebuO3vPiI_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w35nY8qTUXebuO3vPiI_-35" target="w35nY8qTUXebuO3vPiI_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w35nY8qTUXebuO3vPiI_-35" value="Strona logowania do panelu administracyjnego" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
