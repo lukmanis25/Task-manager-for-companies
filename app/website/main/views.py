@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .forms import RegisterForm, TaskForm
+from .forms import RegisterForm, TaskForm, UpdateTaskManagerForm, UpdateTaskForm
 from django.contrib.auth.decorators import login_required, permission_required
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.models import User, Group
@@ -22,7 +22,7 @@ def home(request):
 
 
 @login_required(login_url="/login")
-@permission_required("main.add_post", login_url="/login", raise_exception=True)
+@permission_required("main.add_task", login_url="/login", raise_exception=True)
 def create_task(request):
     if request.method == 'POST':
         form = TaskForm(request.POST)
@@ -34,8 +34,27 @@ def create_task(request):
     else:
         form = TaskForm()
 
+    form.fields['worker'].queryset = get_valid_workers()
     return render(request, 'main/create_task.html', {"form": form})
 
+@login_required(login_url="/login")
+def update_task(request, pk):
+
+    task = Task.objects.get(id=pk)
+
+    if request.user == task.manager:
+        form = UpdateTaskManagerForm(instance=task)
+        form.fields['worker'].queryset = get_valid_workers()
+    else:
+        form = UpdateTaskForm(instance=task)
+
+    if request.method == 'POST':
+        form = UpdateTaskManagerForm(request.POST, instance=task) if request.user == task.manager else UpdateTaskForm(request.POST, instance=task)
+        if form.is_valid():
+            form.save()
+            return redirect("/home")
+
+    return render(request, 'main/update_task.html', {"form": form})
 
 def sign_up(request):
     if request.method == 'POST':
@@ -48,3 +67,9 @@ def sign_up(request):
         form = RegisterForm()
 
     return render(request, 'registration/sign_up.html', {"form": form})
+
+def get_valid_workers():
+    manager_group = Group.objects.get(name='manager')
+    managers = manager_group.user_set.all()
+    admin = User.objects.get(username='admin')
+    return User.objects.exclude(id__in=managers.values_list('id', flat=True)).exclude(id=admin.id)

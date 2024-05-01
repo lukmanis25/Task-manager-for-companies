@@ -9,10 +9,21 @@ class RegisterForm(UserCreationForm):
 
     class Meta:
         model = User
-        fields = ["username", "email", "password1", "password2"]
+        fields = ["username", "first_name", "last_name", "email", "password1", "password2"]
 
 
 class TaskForm(forms.ModelForm):
     class Meta:
         model = Task
         fields = ["title", "description", "status", "worker"]
+
+
+class UpdateTaskManagerForm(forms.ModelForm):
+    class Meta:
+        model = Task
+        fields = ["title", "description", "status", "worker"]
+
+class UpdateTaskForm(forms.ModelForm):
+    class Meta:
+        model = Task
+        fields = ["status"]
