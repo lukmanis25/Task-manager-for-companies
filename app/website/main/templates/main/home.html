@@ -1,0 +1,30 @@
+{% extends 'main/base.html' %} {% block title %}Strona główna{% endblock %} 
+{% block content %} {% for task in tasks %}
+<div class="card mt-2">
+  <div class="card-header"><strong>@{{ task.manager.username }}</strong></div>
+  <div class="card-body d-flex flex-row justify-content-between">
+    <div>
+      <h5 class="card-title">{{task.title}}</h5>
+      <p>{{task.description}}</p>
+    </div>
+    <div>
+      {% if user == task.manager %}
+      <form method="post">
+        {% csrf_token %}
+        <button
+          type="submit"
+          class="btn btn-danger"
+          name="task-id"
+          value="{{task.id}}"
+        >
+          Usuń
+        </button>
+      </form>
+      {% endif %}
+    </div>
+  </div>
+  <div class="card-footer text-muted">{{task.created_at}}</div>
+</div>
+{% empty %}
+<p>Brak zadań</p>
+{% endfor %} {% endblock %}
